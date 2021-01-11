@@ -1,5 +1,14 @@
 <section class="cart-show">
 
+<% puts enhanced_cart.count %>
+<% if enhanced_cart.count == 0 %>
+  <div class="alert alert-info" role="alert">
+<h2>Your cart is empty</h2>
+  </div>
+        <%= link_to 'Home', "/" %>
+
+<% else %>
+
   <header class="page-header">
     <h1>My Cart</h1>
   </header>
@@ -48,5 +57,5 @@
       <% end %>
     </div>
   </div>
-
+<% end %>
 </section>
