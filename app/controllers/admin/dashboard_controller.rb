@@ -3,5 +3,7 @@ class Admin::DashboardController < ApplicationController
                                password: "book"
 
   def show
+    @product_count = Product.count
+    @category_count = Category.count
   end
 end
