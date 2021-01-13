@@ -14,8 +14,9 @@
 
   <% if active_sale? %>
   <P class="alert alert-info">
-  There's an active <%= "AWESOME %> sale going on! <strong>Everything is <%= 15 %>% off!</strong>
+  There is an <%= "AWESOME" %> sale going on! <strong>Everything is <%= 15 %>% off!</strong>
   </p>
+  <% end %>
     <%= yield %>
   </main>
 
