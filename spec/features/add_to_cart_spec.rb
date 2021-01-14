@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature "user navigates to Product Details", type: :feature, js: true do
+RSpec.feature "Visitor navigates to Product Details", type: :feature, js: true do
 
   # creates mock database info for tests
   before :each do
@@ -18,16 +18,16 @@ RSpec.feature "user navigates to Product Details", type: :feature, js: true do
     end
   end
 
-  scenario "They see all products" do
+  scenario "Add to cart" do
     # runs test
     visit root_path
-    click_link("Details »", match: :first)
+    click_on("Add", match: :first)
     
     # screenshot for debug
     # save_screenshot
-
+    
      # verification
-    expect(page).to have_css '.product-detail'
+    expect(page).to have_content "My Cart (1)"
 
   end
 end
