@@ -1,7 +1,13 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2. 
 
+
+## Screenshots
+
+![Home Page](https://raw.githubusercontent.com/DanteCrossCoding/jungle-rails/master/doc/Jungle-Home%20page%20with%20dropdown.png)
+![Admin Product Page](https://raw.githubusercontent.com/DanteCrossCoding/jungle-rails/master/doc/Jungle-Admin%20product%20page.png)
+![Signup Page](https://raw.githubusercontent.com/DanteCrossCoding/jungle-rails/master/doc/Jungle-signup%20page.png)
 
 ## Setup
 
